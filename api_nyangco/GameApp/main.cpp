@@ -35,7 +35,6 @@ int __stdcall WinMain(_In_ HINSTANCE hInstance,   // 윈도우가 우리프로그램을 구�
     GameEngineWindow::GetInst().CreateGameWindow(hInstance, "GameWindow");
     GameEngineWindow::GetInst().ShowGameWindow();
     GameEngineWindow::GetInst().MessageLoop(GameInit, GameLoop);
-
     GameEngineWindow::Destroy();
 
     MyGame.GameEnd();
